@@ -19,5 +19,11 @@ public class main {
 		// Probamos los métodos de la clase Producto.
 		
 		// Probamos los métodos de la clase Cociente.	
+		
+		Cociente valor = new Cociente();
+		System.out.println(valor.cocienteDosEnteros(50, 10));
+		System.out.println(valor.cocienteDosReales(3.14f, 2.1f));
+		System.out.println(valor.inverso(2.7f));
+		System.out.println(valor.raiz(3.33f));		
 	}
 }
