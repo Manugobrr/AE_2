@@ -18,6 +18,14 @@ public class main {
 		
 		// Probamos los métodos de la clase Producto.
 		
+		Producto producto1= new Producto();
+        System.out.println(producto1.productoDosEnteros(85, 10));
+        System.out.println(producto1.productoDosReales(4.22f, 5.37f));
+        System.out.println(producto1.productoTresReales(5.37f, 3.78f, 5.99f));
+        System.out.println(producto1.potencia(2,5));
+        
 		// Probamos los métodos de la clase Cociente.	
+
+	
 	}
 }
